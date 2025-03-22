@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(236, 228, 228);
+}
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer {
+  color: white;
+  padding: 25px;
+  background-color: rgb(47, 47, 47);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.pnf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 65vh;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 60px;
+}
+
+.pnf-heading {
+  font-weight: 400;
+}
+
+.pnf-btn {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: none;
+}
+
+.contactus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* register */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.product-details {
+  margin-top: 30px;
+}
+
+.product-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #007bff;
+}
+
+.product-category span {
+  font-weight: bold;
+  color: #555;
+}
+
+.similar-products {
+  margin-top: 40px;
+}
+
+.similar-products h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* ======= HomePage Styles ======= */
+.homepage {
+  padding: 20px;
+}
+
+/* Filter Section */
+.filter-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.filter-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.filter-item {
+  margin-bottom: 8px;
+}
+
+/* Product Section */
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-price {
+  color: #e74c3c;
+  font-size: 16px;
+}
+
+.btn-group button {
+  margin-right: 5px;
+}
