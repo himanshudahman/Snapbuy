@@ -1,8 +1,7 @@
-import { compare } from "bcrypt";
 import { comparePassword, hashedPassword } from "../helper/authHelper.js";
 import userModel from "../models/userModel.js";
 import JWT from "jsonwebtoken";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 
 export const registerController = async (req, res) => {
   try {
